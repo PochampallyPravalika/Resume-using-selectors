@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            height:800px;
+            width:1300px;
+            border:0px solid;
+            font-family: "Roboto Mono", monospace;
+            letter-spacing: 3px;
+        }
+        .b{
+            height:75px;
+            width:1300px;
+            border:0px solid;
+            position: fixed;
+            top:0px;
+            background-color: white;
+        }
+        .c{
+            position: sticky;
+            bottom:100px;
+
+        }
+        .but,.pro,.about,.contact{
+            height:40px;
+            width:130px;
+            border:0px solid white;
+            font-size:15px;
+            letter-spacing: 3px;
+        }
+        .pro{
+            position: relative;
+            left:640px;
+            bottom: 7px;
+        }
+        .about{
+            position: relative;
+            left:680px;
+            bottom:7px;
+        }
+        .contact{
+            position: relative;
+            left:720px;
+            bottom: 7px;
+        }.c{
+            padding:15px;
+        }
+        .but:hover,.pro:hover,.about:hover,.contact:hover{
+            background-color: grey;
+            
+        }
+        .but,.pro,.about,.contact{
+            background-color: white;
+            font-family: "Roboto Mono", monospace;
+        }.img{
+            text-align: center;
+            height: 100px;
+            width:100px;
+        }
+        .z{
+            position: relative;
+            bottom:500px;
+            text-align: center;
+            color:rgb(255, 255, 255);
+            letter-spacing:3px;
+        }
+        .br{
+            background-color: black;
+            padding:6px;
+            opacity: 70%;
+            letter-spacing:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="b">
+            <div class="c">
+                <button class="but"><b>BR</b> Architects</button>
+                <button class="pro">Projects</button>
+                <button class="about">About</button> 
+                <button class="contact">Contact</button> 
+            </div>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/architect.jpg">
+            <h2 class="z"><span class="br">BR</span> Architects</h2>
+
+        </div>
+        
+    </div>
+</body>
+</html>

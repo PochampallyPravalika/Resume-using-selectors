@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            height:200px;
+            width:2px;
+            border:1px solid;
+            -webkit-animation: MoveUpDown 50s linear infinite;
+        }
+        .container2{
+            height:200px;
+            width:2px;
+            border:1px solid;
+            position: relative;
+            top:50px;
+           
+        }
+        .container3{
+            height:200px;
+            width:2px;
+            border:1px solid;
+            position: relative;
+            left:200px;
+            bottom:400px;
+        }
+        img{
+            position: relative;
+            top:200px;
+        }
+        
+        img:hover{
+            /* transform: translateX(100px);
+            transform: translateY(20px); */
+            transition:all 1s;
+            animation:MoveUpDown 1s linear infinite;
+            position: absolute;
+            left:0;
+            bottom: 0;
+        }
+        @keyframes MoveUpDown{
+            0%,100% {
+                bottom:0;
+            }
+            50%{
+                bottom: 100px;
+            }
+        }
+        /* .object{
+            animation:MoveUpDown 1s linear infinite;
+            position: absolute;
+            left:0;
+            bottom: 0;
+        }
+        @keyframes MoveUpDown{
+            0%,100% {
+                bottom:0;
+            }
+            50%{
+                bottom: 100px;
+            }
+        } */
+    </style>
+</head>
+<body >
+    <div class="object">
+    <div class="container1">
+        <img clas="a" src="https://tse1.mm.bing.net/th?id=OIP.j9WsZ-fzTCxWA97YTUOOkwHaFb&pid=Api&P=0&h=180" heigh="50px" width="50px">
+
+    </div>
+    <div class="container2">
+       
+
+    </div>
+    <div class="container3">
+        <img src="">
+
+    </div>
+    </div>
+</body>
+</html>

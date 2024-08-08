@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    
+    animation:red1 1s linear infinite;
+}
+.two{
+   
+    animation:yellow1 2s linear infinite;
+}
+.three{
+    animation:yellow1 1s linear infinite;
+    
+}
+.four{
+    animation:green1 2s linear infinite;
+   
+}
+@keyframes red1{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
+@keyframes yellow1{
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
+@keyframes blue1{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
+@keyframes green1{
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        transform: translateY(40px);
+    }
+}
